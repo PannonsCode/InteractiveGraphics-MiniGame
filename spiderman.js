@@ -1,6 +1,6 @@
 //spiderman
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import * as THREE from './build/three.module.js';
+import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 import * as TWEEN from './tween_js/tween.esm.js';
 
 class Spiderman{
