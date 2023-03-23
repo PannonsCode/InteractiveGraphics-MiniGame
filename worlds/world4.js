@@ -2,7 +2,7 @@
 import * as THREE from '../build/three.module.js';
 import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
 import { Portal } from '../worlds_elements/portal.js';
-import { Stone } from ..'/worlds_elements/stone.js';
+import { Stone } from '../worlds_elements/stone.js';
 import { Model3D } from '../worlds_elements/model3D.js';
 import {Util} from "../utils.js";
 import { World0 } from './world0.js';
