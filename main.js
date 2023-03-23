@@ -8,7 +8,7 @@ import { World1 } from './worlds/world1.js';
 import { World2 } from './worlds/world2.js';
 import { World3 } from './worlds/world3.js';
 import { World4 } from './worlds/world4.js';
-import { Spiderman } from './spiderman.js';
+//import { Spiderman } from './spiderman.js';
 import * as TWEEN from './tween_js/tween.esm.js';
 import {Util} from "./utils.js";
 
