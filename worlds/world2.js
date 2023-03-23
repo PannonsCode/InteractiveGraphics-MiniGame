@@ -1,12 +1,12 @@
 //World 2
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { Portal } from '/worlds_elements/portal.js';
-import { Stone } from '/worlds_elements/stone.js';
-import { Model3D } from '/worlds_elements/model3D.js';
-import {Util} from "/utils.js";
-import { World3 } from '/worlds/world3.js';
-import { Spiderman } from '/spiderman.js';
+import * as THREE from '../build/three.module.js';
+import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
+import { Portal } from '../worlds_elements/portal.js';
+import { Stone } from '../worlds_elements/stone.js';
+import { Model3D } from '../worlds_elements/model3D.js';
+import {Util} from "../utils.js";
+import { World3 } from './world3.js';
+import { Spiderman } from '../spiderman.js';
 
 class World2{
 	
