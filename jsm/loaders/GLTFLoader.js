@@ -1,4 +1,4 @@
-
+import {Loader} from "../build/three.module.js"
 class GLTFLoader extends Loader {
 
 	constructor( manager ) {
