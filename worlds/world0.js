@@ -1,13 +1,13 @@
 //HOME PAGE
 import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { Portal } from './worlds_elements/portal.js';
-import { Stone } from './worlds_elements/stone.js';
-import { Model3D } from './worlds_elements/model3D.js';
-import { TextGeometry } from 'three/addons/geometries/TextGeometry.js';
-import {Util} from "./utils.js";
-import { World1 } from './worlds/world1.js';
-import { Spiderman } from './spiderman.js';
+import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
+import { Portal } from '../worlds_elements/portal.js';
+import { Stone } from '../worlds_elements/stone.js';
+import { Model3D } from '../worlds_elements/model3D.js';
+import { TextGeometry } from '../jsm/geometries/TextGeometry.js';
+import {Util} from "../utils.js";
+import { World1 } from './world1.js';
+import { Spiderman } from '../spiderman.js';
 
 class World0{
 	
