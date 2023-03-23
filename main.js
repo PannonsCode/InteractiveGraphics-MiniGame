@@ -8,9 +8,9 @@ import { World1 } from './w/world1.js';
 import { World2 } from './w/world2.js';
 import { World3 } from './w/world3.js';
 import { World4 } from './w/world4.js';
-import { Spiderman } from './spiderman.js';
+import { Spiderman } from './root/spiderman.js';
 import * as TWEEN from './tween_js/tween.esm.js';
-import {Util} from "./utils.js";
+import {Util} from "./root/utils.js";
 
 var world, camera;
 
