@@ -15,9 +15,6 @@
  * }
  */
 
-import {
-	ExtrudeGeometry
-} from '../';
 
 class TextGeometry extends ExtrudeGeometry {
 
