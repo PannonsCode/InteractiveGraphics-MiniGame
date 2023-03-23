@@ -1,6 +1,6 @@
 //CLASS TO LOAD A 3D MODEL
-import * as THREE from 'three';
-import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
+import * as THREE from '../build/three.module.js';
+import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
 
 class Model3D{
 	
