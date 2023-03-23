@@ -2,12 +2,12 @@
 import * as THREE from 'three';
 import Stats from 'three/addons/libs/stats.module.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { Model3D } from './root/w_e/model3D.js';
-import { World0 } from './root/w/world0.js';
-import { World1 } from './root/w/world1.js';
-import { World2 } from './root/w/world2.js';
-import { World3 } from './root/w/world3.js';
-import { World4 } from './root/w/world4.js';
+import { Model3D } from './world_elements/model3D.js';
+import { World0 } from './worlds/world0.js';
+import { World1 } from './worlds/world1.js';
+import { World2 } from './worlds/world2.js';
+import { World3 } from './worlds/world3.js';
+import { World4 } from './worlds/world4.js';
 import { Spiderman } from './root/spiderman.js';
 import * as TWEEN from './tween_js/tween.esm.js';
 import {Util} from "./root/utils.js";
