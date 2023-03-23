@@ -2,7 +2,7 @@
 import * as THREE from 'three';
 import Stats from 'three/addons/libs/stats.module.js';
 import { GLTFLoader } from 'three/addons/loaders/GLTFLoader.js';
-import { Model3D } from './world_elements/model3D.js';
+import { Model3D } from './worlds_elements/model3D.js';
 import { World0 } from './worlds/world0.js';
 import { World1 } from './worlds/world1.js';
 import { World2 } from './worlds/world2.js';
