@@ -17,7 +17,7 @@ class Spiderman{
 	
 	//Animation for initial position
 	async init(world,x,y,z){
-		var data_loaded = await this.gltfLoader.loadAsync('/models/spiderman.glb');
+		var data_loaded = await this.gltfLoader.loadAsync('./models/spiderman.glb');
 		this.model = data_loaded.scene;
         this.model.position.set(x,y,z);
         world.add(this.model); 
@@ -86,7 +86,7 @@ class Spiderman{
     
     //Animation of jump when enter in a new world
     async jump(world,x,y,z){
-		var data_loaded = await this.gltfLoader.loadAsync('/models/spiderman.glb');
+		var data_loaded = await this.gltfLoader.loadAsync('./models/spiderman.glb');
 		this.model = data_loaded.scene;
         this.model.position.set(x,y,z);
         world.add(this.model); 
