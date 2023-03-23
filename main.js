@@ -1,7 +1,7 @@
 //main.js
 import * as THREE from './three';
-import Stats from './three/addons/libs/stats.module.js';
-import { GLTFLoader } from './three/addons/loaders/GLTFLoader.js';
+import Stats from './jsm/libs/stats.module.js';
+import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 import { Model3D } from './worlds_elements/model3D.js';
 import { World0 } from './worlds/world0.js';
 import { World1 } from './worlds/world1.js';
