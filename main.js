@@ -1,5 +1,5 @@
 //main.js
-import * as THREE from './three';
+import * as THREE from './build/three.module.js';
 import Stats from './jsm/libs/stats.module.js';
 import { GLTFLoader } from './jsm/loaders/GLTFLoader.js';
 import { Model3D } from './worlds_elements/model3D.js';
