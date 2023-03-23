@@ -1,5 +1,5 @@
 //LOAD A STONE
-import * as THREE from 'three';
+import * as THREE from '../build/three.module.js';
 
 class Stone{
 	
