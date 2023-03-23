@@ -1,5 +1,5 @@
 //HOME PAGE
-import * as THREE from './build/three.module.js';
+import * as THREE from '../build/three.module.js';
 import { GLTFLoader } from '../jsm/loaders/GLTFLoader.js';
 import { Portal } from '../worlds_elements/portal.js';
 import { Stone } from '../worlds_elements/stone.js';
