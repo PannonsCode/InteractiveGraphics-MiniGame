@@ -11,7 +11,7 @@ class Portal{
 	//INITIALIZATION
 	set_portal(){
 		const geometry = new THREE.CircleGeometry( 3, 64);
-		const texture = new THREE.TextureLoader().load( './textures/portal2.JPG' );
+		const texture = new THREE.TextureLoader().load( './textures/portal2.jpg' );
 		const material = new THREE.MeshBasicMaterial( { map: texture } );
 		const portal = new THREE.Mesh( geometry, material );
 		return portal;
